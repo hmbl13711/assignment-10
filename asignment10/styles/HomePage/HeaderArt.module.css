@@ -1,0 +1,41 @@
+.SLart {
+  background-color: #f9fafd;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 3rem;
+}
+.SLart > div {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.SLart a {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  align-self: flex-start;
+  color: #67cbab;
+  text-decoration: none;
+}
+
+.SLart > div p:nth-child(2) {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 43px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.SLart > div p:nth-child(3) {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
